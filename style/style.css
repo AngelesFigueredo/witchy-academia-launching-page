@@ -1,0 +1,120 @@
+img {
+    width: 100%;
+}
+body{
+    font-family: 'Noto Serif Tamil', serif; 
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px rgb(228, 226, 226) solid;
+    padding: 0 10px;
+}
+nav {
+    width: 100%;
+}
+h1,
+h2{
+    font-family: 'Noto Serif Tamil', serif;
+}
+h2{
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+h3{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color:rgb(136, 136, 136);
+}
+ul {
+    list-style: none;
+}
+
+header ul {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: rgb(85, 77, 77) ;
+    font-size: 1.4em;
+    
+}
+
+.logo{
+    width: 148px;
+    height: 44px;
+    margin: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(136, 136, 136), rgb(245, 126, 245)) 1
+}
+.play-game-button{
+    width: 200px;
+    height: 44px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #9372ac;
+}
+.button-text{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.section-1{
+    padding-top: 30px;
+}
+.section-1 a {
+    text-decoration: none;
+    color: rgb(85, 77, 77);
+    font-size: 1em;
+}
+.play-game-button a{
+    color: white;
+}
+
+.section-2{
+    background-color: #c0aad1;
+    margin-top: 20px;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+.section-2 h2{
+    background-color: rgb(255, 255, 255);
+    transform: skew(0deg, 2deg);
+}
+.section-2 p {
+    margin-top: 10px;
+    color: white;
+}
+
+.section-3 {
+    margin-bottom: 10px;
+}
+.section-3 h2{
+   margin-bottom: 20px;
+}
+hr{
+    background-color: #c0aad1;
+}
+
+
+footer{
+    color: white;
+    background-color: #9372ac;
+    margin-top: 40px;
+    border-top: 2px #c0aad1 solid ;
+    padding-top: 10px;
+}
+
+
